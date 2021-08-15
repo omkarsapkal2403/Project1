@@ -195,7 +195,8 @@ div, p {
 
 
 /* Footer */
- @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 body{
 	line-height:1.5;
 	font-family: 'Poppins', sans-serif;
@@ -279,6 +280,7 @@ ul{
 	color:#24262b;
 	background-color: #ffffff;
 }
+
 @media(max-width: 767px){
 	.footer-col{
 		width: 50%;
