@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steno Registration</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2 style="text-align:center;">Registration Form - Stenography </h2><br><br>
+        <form class="form-horizontal" action="/action_page.php">
+          <div class="form-group">
+            <label class="control-label col-sm-4" for="name">Name :</label>
+            <div class="col-sm-6">
+              <input type="name" class="form-control" id="name" placeholder="Enter name" name="Name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-4" for="dob">Date Of Birth (DOB) :</label>
+            <div class="col-sm-6">          
+              <input type="date" class="form-control"   name="date">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-4" for="mobile">Mobile No. :</label>
+            <div class="col-sm-6">          
+                <input type="text" class="form-control"   name="mobile">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="control-label col-sm-4" for="email">Email Id. :</label>
+            <div class="col-sm-6">          
+                <input type="email" class="form-control"   name="email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-4" for="aadhar">Aadhar  No. :</label>
+            <div class="col-sm-6">          
+                <input type="text" class="form-control"   name="aadhar">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-4" for="address1">Address line1 :</label>
+            <div class="col-sm-6">          
+                <input type="text" class="form-control"   name="address1">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-4" for="address2">Address line2 :</label>
+            <div class="col-sm-6">          
+                <input type="text" class="form-control"   name="address2">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-4" for="city">City :</label>
+            <div class="col-sm-6"> 
+                <select style="width: 100px; height: 35px;">
+                            <option>Mumbai</option>	
+                            <option>Amravati</option>
+                            <option>Pune</option>	
+                            <option>Nashik</option>	
+                </select>
+            </div>
+          </div>
+        <div class="form-group">
+           
+            <label class="control-label col-sm-4" for="subject">Subject :</label>
+            <div class="col-sm-6"> 
+                      <input type="radio" id="eng" name="subject" value="English">
+                      <label for="eng">English </label>&nbsp;&nbsp;
+                      <input type="radio" id="mar" name="subject" value="Marathi">
+                      <label for="mar">Marathi</label>&nbsp;&nbsp;
+                      <input type="radio" id="hin" name="subject" value="Hindi">
+                      <label for="hin">Hindi</label>
+                    <br>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-sm-4" for="speed">Speed :</label>
+            <div class="col-sm-6"> 
+                <input type="radio" id="1" name="Speed" value="60 wpm">
+                <label for="1">60 wpm</label>&nbsp;&nbsp;
+                <input type="radio" id="2" name="Speed" value="100 wpm">
+                <label for="2">100 wpm</label>&nbsp;&nbsp;
+                <input type="radio" id="2" name="Speed" value="120 wpm">
+                <label for="2">120 wpm</label>&nbsp;&nbsp;
+                <input type="radio" id="2" name="Speed" value="160 wpm">
+                <label for="2">160 wpm</label>
+            </div>
+        </div>
+
+        <div class="form-group">       
+            <label class="control-label col-sm-4" for="passed">Have you passed  typing exam ?</label>
+            <div class="col-sm-offset-5 col-sm-7">
+                <div class="checkbox">
+                    <input type="checkbox" id="yes" value="yes" >
+                    <label for="yes">Yes</label>
+                </div>
+            </div>
+            <div class="col-sm-offset-5 col-sm-7">
+                <div class="checkbox">
+                    <input type="checkbox" id="no" value="no">
+                    <label for="no">No </label>            
+                </div>
+            </div>
+        </div>
+		
+		  <div class="form-group">
+            <label class="control-label col-sm-4" for="subPassed">Enter the subject and speed in which you have Passed the typing exam</label>
+            <div class="col-sm-6">          
+                <input type="subPassed" class="form-control"   name="subPassed">
+            </div>
+          </div>
+		
+
+        <div class="form-group">
+            <label class="control-label col-sm-4" for="upload">Upload aadhar card :</label>
+            <div class="col-sm-6"> 
+            <input type="file">
+            </div>
+
+        </div>
+		
+		  <div class="form-group">
+            <label class="control-label col-sm-4" for="upload">Upload aadhar card :</label>
+            <div class="col-sm-6"> 
+            <input type="file">
+            </div>
+
+        </div>
+		
+		 <div class="form-group">
+            <label class="control-label col-sm-4" for="upload">Upload your Sign :</label>
+            <div class="col-sm-6"> 
+            <input type="file">
+            </div>
+
+        </div>
+
+
+
+
+         <div class="form-group">        
+            <div class="col-sm-offset-4 col-sm-8">
+              <div class="checkbox">
+                <label><input type="checkbox" name="agree"> I Agree</label>
+              </div>
+            </div>
+         </div>
+
+          <div class="form-group">        
+            <div class="col-sm-offset-4 col-sm-8">
+			<a href="thankyou.html" class="btn btn-success" role="button">Submit</a>
+            </div>
+          </div>
+        </form>
+      </div>
+      
+     
+      
+    
+</body>
+</html>
